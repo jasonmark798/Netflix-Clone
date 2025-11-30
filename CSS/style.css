@@ -1,0 +1,162 @@
+/*Responsividade PC's*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img#Fundo {
+    max-width: 100%;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+
+    header {
+        background: none;
+        z-index: 1;
+
+    }
+
+    img#Fundo {
+        transform: translateY(-50px);
+        z-index: -1;
+        filter: brightness(30%);
+    }
+
+    button#Entrar {
+        transform: translateY(-790px) translateX(710px);
+         
+        background-color: red;
+        width: 90px;
+        height: 35px;
+        border: none;
+        color: white;
+        font-size: 20px;
+        text-decoration: solid;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    h1#Frase-inicio {
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 70px;
+        width: 700px;
+        text-align: center;
+        transform: translateY(-650px);
+        font-weight: 1000;
+
+    }
+
+    h2#Texto-Inicio1 {
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 800;
+        transform: translateY(-630px);
+    }
+
+    h3#Texto-Inicio2 {
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 20px;
+        transform: translateY(-580px);
+    }
+
+    input#Botao-Email {
+        width: 480px;
+        height: 55px;
+        background-color: rgba(0, 0, 0, 0.479);
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        border: 2px solid rgb(185, 185, 185);
+        margin-right: 10px;
+        
+    }  
+    
+    input#Botao-Email::placeholder {
+        color: rgb(182, 182, 182);
+
+    }
+
+    button#Vamosla {
+        width: 180px;
+        height: 55px;
+        font-size: 22px;
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+        border-style: none;
+        cursor: pointer;
+
+    }
+    
+    div#interface-inicio {
+        transform: translateY(-560px);
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    img#Logo {
+        transform: translateY(-750px) translateX(100px);
+
+    }
+
+    button#lingua {
+        width: 150px;
+        height: 35px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.295);
+        color: white;
+        border-radius: 5px;
+        border: 1px solid gray;
+        transform: translateY(-790px) translateX(700px);
+    }
+
+    button#lingua i {
+        font-size: 20px;
+        padding-right: 5px;
+
+    }
+
+    div#div1 {
+        width: 1700px;
+        height: 80px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 50px;
+        background: linear-gradient(to right, #38184C, #48265e, #62367e, #220968);
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translateY(-350px);
+
+
+    }
+
+    div#div1 button {
+
+    }
+
+
+}
