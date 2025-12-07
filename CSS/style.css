@@ -90,6 +90,7 @@ body {
         border-style: solid;
         border: 2px solid rgb(185, 185, 185);
         margin-right: 10px;
+        color: white;
         
     }  
     
@@ -140,23 +141,267 @@ body {
     }
 
     div#div1 {
-        width: 1700px;
+        width: 1400px;
         height: 80px;
         border: none;
         border-radius: 10px;
-        padding-left: 50px;
-        background: linear-gradient(to right, #38184C, #48265e, #62367e, #220968);
+        background: linear-gradient(to right, #2c103d, #341a46, #251249, #220968);
         display: flex;
         width: fit-content;
         margin: 0 auto;
         transform: translateY(-350px);
+        padding-left: 40px;
+        align-items: center;
+    }
 
+ img#pipoca {
+        display: flex;
+        transform: translateX(20px) translateY(-265px);
+       
 
+    }
+
+    div#div1 h2 {
+        font-size: 22px;
+        font-weight: 600;
+        transform: translateY(-10px);
+    }
+
+    div#div1 h4 {
+        font-weight: 600;
+        font-size: 18px;
+        transform: translateY(10px) translateX(-430px);
     }
 
     div#div1 button {
-
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        background-color: rgb(109, 109, 109);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: 1000;
+        margin-right: 30px;
     }
 
 
+    h1#alta {
+        font-size: 25px;
+        font-weight: 900;
+        width: 300px;
+        transform: translateY(-270px) translateX(100px);
+        
+    }
+
+    div#filme {
+        width: 190px;
+        height: 250px;
+        border-radius: 5px;
+        font-size: 78px;
+        cursor: pointer;
+        transform: scale(1.0);
+    }
+
+    div#filme:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in;
+    }
+
+    div#filme h3 {
+        font-weight: 1000;
+        transform: translateY(120px) translateX(-30px);
+        position: relative;
+        z-index: 1;
+        -webkit-text-stroke: 2px white;
+        color: black;
+    } 
+
+    section#containerpai {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        transform: translateY(-240px);
+        
+    }
+
+    div#filme img {
+        width: 100%;
+        height: 100%;
+        transform: translateY(-119px);
+        border-radius: 10px;
+    }
+
+    h2#motivos {
+        font-size: 25px;
+        font-weight: 1000;
+        transform: translateY(-150px) translateX(100px);
+        width: 400px;
+    }
+
+    section#containerpai2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        transform: translateY(-230px);
+        padding: 120px;
+        
+    }
+
+    div#Motivos1 {
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        width: 250px;
+        height: 320px;
+        background: linear-gradient(165deg, rgb(50, 45, 92), rgb(45, 45, 100), rgb(42, 28, 95), rgb(26, 9, 58),  rgb(11, 3, 26), rgb(61, 0, 0))
+    }
+    
+    div#Motivos1 h3 {
+        font-size: 25px;
+        font-weight: 1000;
+    }
+
+    div#Motivos1 p {
+        color: gray;
+        font-size: 15px;
+        transform: translateY(30px);
+        
+    }
+
+    h2#perguntas {
+        font-size: 25px;
+        transform: translateY(-280px) translateX(100px);
+        font-weight: 1000;
+        width: 400px;
+    }
+
+    img#icon1 {
+        transform: translateY(120px) translateX(140px);
+
+    }
+
+    img#icon2 {
+        transform: translateY(140px) translateX(145px);
+    }
+
+    img#icon3 {
+        transform: translateY(75px) translateX(150px);
+
+    }
+
+    button#perguntas_frequentes {
+        width: 1000px;
+        height: 80px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        text-align: left;
+        padding: 20px;
+        color: white;
+        background: rgb(56, 56, 56);
+        border: none;
+        font-weight: 1000;
+        transform: translateY(-200px);
+        cursor: pointer;
+    }
+
+    button#perguntas_frequentes i {
+        transform: translateX(400px);
+        font-size: 35px;
+        display: block;
+        transform: translateY(-28px) translateX(920px);
+        width: 100px;
+    }
+
+    section#containerpai3 {
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(-50px) translateX(150px);
+        width: 1000px;
+    }
+
+    button#perguntas_frequentes:hover {
+        background-color: rgb(92, 92, 92);
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    footer h2 {
+        font-size: 17px;
+        text-align: center;
+        transform: translateY(-200px);
+    }
+
+    div#containerpai4 {
+        width: fit-content;
+        margin: 0 auto;
+        transform: translateY(-150px);
+    }
+
+    footer a {
+        color: rgb(156, 154, 154);
+        text-decoration: underline;
+    }
+
+    footer h4 {
+        color: rgb(156, 154, 154);
+        transform: translateY(-100px) translateX(100px);
+        width: 400px;
+    }
+
+    div#containerpai5 {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 15px;
+        padding-left: 10px;
+        width: fit-content;
+        margin: 0 auto;
+        transform: translateY(-50px);
+    }
+    
+    div#containerpai5 a {
+        margin-right: 100px;
+        margin-bottom: 6px;
+
+    }
+
+    button#lingua2 {
+        width: 150px;
+        height: 35px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.295);
+        color: white;
+        border-radius: 5px;
+        border: 1px solid gray;
+        transform: translateY(0px) translateX(80px);
+
+
+    }
+
+    button#lingua2 i {
+        font-size: 20px;
+        padding-right: 5px;
+
+    }
+
+    footer h3 {
+        font-size: 15px;
+        color: rgb(156, 154, 154);
+        transform: translateY(50px) translateX(80px);
+        width: 400px;
+    }
+
+    footer h5 {
+        font-size: 13px;
+        color: rgb(156, 154, 154);
+        transform: translateY(80px) translateX(80px);
+        width: 600px;
+        margin-bottom: 250px;
+    }
+
+    
 }
