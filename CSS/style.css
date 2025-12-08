@@ -52,7 +52,7 @@ body {
     }
 
     img#Borda {
-        transform: translateY(-530px);
+        transform: translateY(-500px);
         width: 100%;
     }
 
@@ -421,6 +421,7 @@ body {
 
     
 }
+
 
 
 
