@@ -52,12 +52,13 @@ body {
     }
 
     img#Borda {
-        transform: translateY(-480px);
+        transform: translateY(-680px);
         width: 100%;
     }
 
     img#BordaCelulares {
         display: none;
+        display: hidden;
     }
 
     h1#Frase-inicio {
@@ -171,7 +172,7 @@ body {
 
  img#pipoca {
         display: flex;
-        transform: translateX(-30px) translateY(0px);
+        transform: translateX(-45px) translateY(350px);
        
 
     }
@@ -420,3 +421,4 @@ body {
 
     
 }
+
