@@ -52,6 +52,7 @@ body {
     }
 
     img#Borda {
+        display: flex;
         transform: translateY(-600px);
         width: 100%;
     }
@@ -421,6 +422,7 @@ body {
 
     
 }
+
 
 
 
