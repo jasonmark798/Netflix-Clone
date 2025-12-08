@@ -34,6 +34,7 @@ body {
         transform: translateY(-50px);
         z-index: -1;
         filter: brightness(30%);
+
     }
 
     button#Entrar {
@@ -48,6 +49,15 @@ body {
         text-decoration: solid;
         border-radius: 4px;
         cursor: pointer;
+    }
+
+    img#Borda {
+        transform: translateY(-480px);
+        width: 100%;
+    }
+
+    img#BordaCelulares {
+        display: none;
     }
 
     h1#Frase-inicio {
@@ -140,8 +150,13 @@ body {
 
     }
 
+    button#linguaCelulares {
+        display: none;
+
+    }
+
     div#div1 {
-        width: 1400px;
+        width: 100px;
         height: 80px;
         border: none;
         border-radius: 10px;
@@ -149,14 +164,14 @@ body {
         display: flex;
         width: fit-content;
         margin: 0 auto;
-        transform: translateY(-350px);
+        transform: translateY(-490px);
         padding-left: 40px;
         align-items: center;
     }
 
  img#pipoca {
         display: flex;
-        transform: translateX(20px) translateY(-265px);
+        transform: translateX(-30px) translateY(0px);
        
 
     }
@@ -170,7 +185,7 @@ body {
     div#div1 h4 {
         font-weight: 600;
         font-size: 18px;
-        transform: translateY(10px) translateX(-430px);
+        transform: translateY(12px) translateX(-435px);
     }
 
     div#div1 button {
@@ -191,7 +206,7 @@ body {
         font-size: 25px;
         font-weight: 900;
         width: 300px;
-        transform: translateY(-270px) translateX(100px);
+        transform: translateY(-440px) translateX(100px);
         
     }
 
@@ -222,7 +237,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        transform: translateY(-240px);
+        transform: translateY(-410px);
         
     }
 
@@ -236,7 +251,7 @@ body {
     h2#motivos {
         font-size: 25px;
         font-weight: 1000;
-        transform: translateY(-150px) translateX(100px);
+        transform: translateY(-330px) translateX(100px);
         width: 400px;
     }
 
@@ -244,7 +259,7 @@ body {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        transform: translateY(-230px);
+        transform: translateY(-420px);
         padding: 120px;
         
     }
@@ -273,7 +288,7 @@ body {
 
     h2#perguntas {
         font-size: 25px;
-        transform: translateY(-280px) translateX(100px);
+        transform: translateY(-480px) translateX(100px);
         font-weight: 1000;
         width: 400px;
     }
@@ -303,7 +318,7 @@ body {
         background: rgb(56, 56, 56);
         border: none;
         font-weight: 1000;
-        transform: translateY(-200px);
+        transform: translateY(-400px);
         cursor: pointer;
     }
 
@@ -330,13 +345,13 @@ body {
     footer h2 {
         font-size: 17px;
         text-align: center;
-        transform: translateY(-200px);
+        transform: translateY(-400px);
     }
 
     div#containerpai4 {
         width: fit-content;
         margin: 0 auto;
-        transform: translateY(-150px);
+        transform: translateY(-380px);
     }
 
     footer a {
@@ -346,13 +361,13 @@ body {
 
     footer h4 {
         color: rgb(156, 154, 154);
-        transform: translateY(-100px) translateX(100px);
+        transform: translateY(-300px) translateX(215px);
         width: 400px;
     }
 
     div#containerpai5 {
         width: 100%;
-        height: 110px;
+        height: 150px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -360,12 +375,12 @@ body {
         padding-left: 10px;
         width: fit-content;
         margin: 0 auto;
-        transform: translateY(-50px);
+        transform: translateY(-250px);
     }
     
     div#containerpai5 a {
-        margin-right: 100px;
-        margin-bottom: 6px;
+        margin-right: 80px;
+        margin-bottom: 10px;
 
     }
 
@@ -377,7 +392,7 @@ body {
         color: white;
         border-radius: 5px;
         border: 1px solid gray;
-        transform: translateY(0px) translateX(80px);
+        transform: translateY(-200px) translateX(210px);
 
 
     }
@@ -391,16 +406,16 @@ body {
     footer h3 {
         font-size: 15px;
         color: rgb(156, 154, 154);
-        transform: translateY(50px) translateX(80px);
+        transform: translateY(-130px) translateX(210px);
         width: 400px;
     }
 
     footer h5 {
         font-size: 13px;
         color: rgb(156, 154, 154);
-        transform: translateY(80px) translateX(80px);
+        transform: translateY(-80px) translateX(210px);
         width: 600px;
-        margin-bottom: 250px;
+        margin-bottom: 70px;
     }
 
     
