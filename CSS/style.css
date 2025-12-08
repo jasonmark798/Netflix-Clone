@@ -52,7 +52,7 @@ body {
     }
 
     img#Borda {
-        transform: translateY(-640px);
+        transform: translateY(-560px);
         width: 100%;
     }
 
@@ -172,7 +172,7 @@ body {
 
  img#pipoca {
         display: flex;
-        transform: translateX(-39px) translateY(280px);
+        transform: translate (-30px,-200px);
        
 
     }
@@ -421,5 +421,6 @@ body {
 
     
 }
+
 
 
