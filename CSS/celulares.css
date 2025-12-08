@@ -1,0 +1,338 @@
+@media screen and (max-width: 600px) {
+
+    html, body {
+        overflow-x: hidden;
+
+    }
+
+    img#Fundo {
+        max-width: 250%;
+        height: 700px;
+        filter: brightness(30%);
+    }
+
+    img#Logo {
+        width: 120px;
+        transform: translateY(-680px) translateX(20px);
+    }
+
+
+    button#Entrar {
+        width: 80px;
+        height: 40px;
+        color: white;
+        background-color: red;
+        border: 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        transform: translateX(125px) translateY(-695px);
+    }
+
+
+    main h1#Frase-inicio {
+        text-align: center;
+        font-weight: 1000;
+        font-size: 40px;
+        transform: translateY(-630px);
+
+    }
+
+    main h2#Texto-Inicio1 {
+        text-align: center;
+        font-size: 16px;
+        width: 280px;
+        transform: translate( 45px,-600px);
+    }
+
+    main h3#Texto-Inicio2 {
+        font-size: 15px;
+        width: 300px;
+        text-align: center;
+        transform: translateY(-580px) translateX(33px);
+
+    }
+
+    input#Botao-Email {
+        width: 320px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.308);
+        font-size: 20px;
+        color: white;
+        padding-left: 10px;
+        border: 2px solid rgb(87, 87, 87);
+        border-radius: 5px;
+        transform: translateY(-530px) translateX(20px);
+    }
+
+    button#Vamosla {
+        width: 160px;
+        height: 55px;
+        font-size: 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: red;
+        transform: translateY(-500px) translateX(100px);
+    }
+
+    div#div1 {
+        position: relative;
+        background: linear-gradient(to right, rgb(51, 23, 51), rgb(26, 26, 80), rgb(23, 23, 94));
+        width: 90%;
+        height: 250px;
+        border-radius: 20px;
+        transform: translateY(-380px) translateX(18px);
+        padding: 20px;
+        z-index: 1;
+    }
+
+    div#div1 h2 {
+        transform: translateY(40px);
+        font-weight: 1000;
+        font-size: 20px;
+
+
+    }
+
+    div#div1 h4 {
+        width: 250px;
+        font-weight: 200;
+        font-size: 17px;
+        transform: translateY(45px);
+    }
+
+    div#div1 button {
+        width: 130px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: rgba(255, 255, 255, 0.178);
+        color: white;
+        font-size: 20px;
+        font-weight: 1000;
+        transform: translateY(60px);
+        border: none;
+    }
+
+    img#pipoca {
+        transform: translate(-20px, -75px);
+        position: absolute;
+        z-index: 2;
+        width: 120px;
+    }
+
+    img#Borda {
+        display: none;
+
+    }
+
+    img#BordaCelulares {
+        width: 100%;
+        transform: translateY(-420px);
+    }
+
+    button#lingua {
+        display: none;
+    }
+
+    h1#alta {
+        font-size: 25px;
+        font-weight: 1000;
+        transform: translate(30px, -300px);
+    }
+
+    section#containerpai {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        
+    }
+    div#filme img {
+        width: 150px;
+        height: 230px;
+        border-radius: 10px;
+        margin: 10px;
+        transform: translate(-20px,-300px);
+
+        
+    }
+
+    div#filme {
+        position: relative;
+        z-index: 1;
+
+    }
+
+    div#filmHidden {
+        display: none;
+
+    }
+
+    div#filme h3#letraHidden {
+        display: none;
+    }
+
+
+
+    div#filme h3 {
+        font-size: 95px;
+        position: absolute;
+        z-index: 2;
+        font-weight: 1000;
+        color: black;
+        -webkit-text-stroke: 2px white;
+        transform: translate(-20px ,-195px);
+        
+    }
+
+    h2#motivos {
+        font-size: 23px;
+        font-weight: 1000;
+        transform: translate(25px, -250px);
+
+    }
+
+
+    div#Motivos1 {
+        background: linear-gradient(160deg, rgb(44, 44, 104), rgb(25, 25, 87), rgb(58, 28, 58), rgb(61, 11, 11));
+        width: 330px;
+        height: 280px;
+        border-radius: 25px;
+        transform: translate(16px, -200px);
+        margin-bottom: 20px;
+        padding: 20px;
+        }
+
+    div#Motivos1 h3{
+        font-size: 28px;
+        font-weight: 1000;
+
+    }
+
+    div#Motivos1 p {
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgb(170, 170, 170);
+    }
+
+    div#Motivos1 img#icon1 {
+        width: 80px;
+        transform: translate(210px, 20px);
+    }
+
+    img#icon2 {
+        width: 90px;
+        transform: translate(210px, 45px);
+
+    }
+
+    img#icon3 {
+        width: 80px;
+        transform: translate(210px, 20px);
+    }
+
+    h2#perguntas {
+        font-weight: 800;
+        font-size: 23px;
+        transform: translate(25px, -130px);
+    }
+
+    section#containerpai3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-100px);
+    }
+
+    button#perguntas_frequentes {
+        width: 90%;
+        height: 120px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: rgb(68, 68, 68);
+        color: white;
+
+    }
+
+    button#perguntas_frequentes:hover {
+        background-color: rgb(94, 93, 93);
+
+    }
+
+    button#perguntas_frequentes i {
+        display: block;
+        font-size: 35px;
+        transform: translate(255px,-15px);
+    }
+
+    footer h2 {
+        font-size: 17px;
+        font-weight: 400;
+        margin-left: 20px;
+        transform: translateY(-20px);
+    }
+
+    footer div#containerpai4 {
+        transform: translateY(550px);
+    }
+
+    footer button#Vamosla {
+        height: 55px;
+        transform: translate(20px,-500px);
+    }
+
+    footer section h4 {
+        font-size: 18px;
+        color: rgb(134, 134, 134);
+        transform: translate(30px, 130px);
+    }
+
+    footer section h4 a {
+        color: rgb(134, 134, 134);
+    }
+
+    div#containerpai5 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    div#containerpai5 a {
+        color: rgb(134, 134, 134);
+        margin-bottom: 10px;
+        margin-left: 30px;
+        transform: translateY(200px);
+    }
+
+    button#lingua2 {
+        width: 150px;
+        height: 40px;
+        transform: translate(25px, 250px);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.452);
+        border: 2px solid rgb(148, 148, 148);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    footer h3 {
+        color: rgb(134, 134, 134);
+        transform: translate(25px, 300px);
+    }
+
+    footer h5 {
+        font-size: 13px;
+        width: 300px;
+        color: rgb(134, 134, 134);
+        transform: translate(25px, 350px);
+        margin-bottom: 500px;
+    }
+
+    footer h5 a {
+        color: rgb(36, 36, 138);
+    }
+}
